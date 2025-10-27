@@ -44,5 +44,3 @@ if __name__ == "__main__":
                 task.get("completed"),
                 task.get("title")
             ])
-
-    print("Data exported to {}".format(filename))
