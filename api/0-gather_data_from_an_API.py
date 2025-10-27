@@ -29,7 +29,7 @@ if __name__ == "__main__":
     todos = requests.get(todo_url).json()
 
     employee_name = user.get("name")
-    done_tasks = [task  for in todos if task.get("completed")]
+    done_tasks = [for task in todos if task.get("completed")]
     total_tasks = len(todos)
 
     print("Employee {} is done with tasks({}/{}):".format(
