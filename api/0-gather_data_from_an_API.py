@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Module that returns information about an employee's TODO list progress
 using the JSONPlaceholder REST API.
