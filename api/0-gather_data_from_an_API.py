@@ -8,6 +8,15 @@ import requests
 import sys
 
 if __name__ == "__main__":
+    """
+    Fetches and displays TODO list progress for a given employee ID.
+
+    Args:
+        employee_id (int): The ID of the employee whose data will be retrieved.
+
+    Returns:
+        None. Prints the employee's progress and completed tasks.
+    """
     if len(sys.argv) != 2:
         print("Usage: ./0-gather_data_from_an_API.py <employee_id>")
         sys.exit(1)
